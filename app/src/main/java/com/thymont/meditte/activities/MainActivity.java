@@ -1,11 +1,14 @@
-package com.thymont.meditte;
+package com.thymont.meditte.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import com.thymont.meditte.model.Music;
+import com.thymont.meditte.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Cliquei no botão", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(getApplicationContext(), MusicListActivity.class );
+                intent.putExtra("music_list", musicList);
+                startActivity(intent);
             }
         });
 

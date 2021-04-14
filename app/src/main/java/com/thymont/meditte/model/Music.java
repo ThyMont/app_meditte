@@ -1,4 +1,4 @@
-package com.thymont.meditte;
+package com.thymont.meditte.model;
 
 import java.io.Serializable;
 

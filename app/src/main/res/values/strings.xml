@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">meditte</string>
     <string name="meditte_title">Meditte</string>
+    <string name="meditte_logo">Meditte Logo</string>
+    <string name="btn_vamos_la">Vamos Lá</string>
+    <string name="hora_da_pausa">Hora da pausa</string>
+    <string name="intro_text">Escolha uma música e aproveite um momento de meditação</string>
 </resources>
